@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+<rect width="480" height="320" fill="#121e33"/>
+<rect x="0" y="0" width="480" height="320" fill="none" stroke="#23324f" stroke-width="4"/>
+<text x="50%" y="50%" font-family="Poppins, sans-serif" font-size="22" fill="#4fd1c5" text-anchor="middle" dominant-baseline="middle">Static Portfolio Website</text>
+</svg>
