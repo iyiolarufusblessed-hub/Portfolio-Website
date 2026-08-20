@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Me | Juan Dela Cruz</title>
+<meta name="description" content="Get in touch with Juan Dela Cruz." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Juan Dela Cruz",
+  "url": "https://example.com/contact.html",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Juan Dela Cruz",
+    "email": "mailto:juan.delacruz.ce@example.com",
+    "telephone": "+63-900-000-0000"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">JD</span> Juan Dela Cruz</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span><span></span><span></span></label>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Technical Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="hobbies.html">Hobbies &amp; Interests</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html" aria-current="page">Contact Me</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <section class="section" style="border-top:none;">
+      <span class="hero-eyebrow">Contact Me</span>
+      <h1>Let's get in touch</h1>
+      <p class="section-intro">Whether it's about an opportunity, a collaboration, or
+        just a question about one of my projects, I'd love to hear from you.</p>
+    </section>
+
+    <section class="section">
+      <div class="grid cols-2">
+        <article>
+          <h2>Contact Details</h2>
+          <p><strong>Email:</strong> <a href="mailto:juan.delacruz.ce@example.com">juan.delacruz.ce@example.com</a></p>
+          <p><strong>Phone:</strong> +63 900 000 0000</p>
+          <p><strong>Location:</strong> Philippines</p>
+          <p><strong>Elsewhere:</strong><br />
+             <a href="https://linkedin.com/in/example">LinkedIn</a> ·
+             <a href="https://github.com/example">GitHub</a> ·
+             <a href="https://facebook.com/example">Facebook</a></p>
+        </article>
+
+        <article>
+          <h2>Send a Message</h2>
+          <p>This form is static markup (no JavaScript, no server processing in this
+             demo build). Configure the <code>action</code> attribute to point at a
+             form-handling endpoint (e.g. a mail-forwarding service or your host's
+             HTTP form handler) to make it functional.</p>
+          <form class="form-grid" action="mailto:juan.delacruz.ce@example.com" method="post" enctype="text/plain">
+            <div>
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required="required" placeholder="Juan Dela Cruz" />
+            </div>
+            <div>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required="required" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Let's connect" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required="required" placeholder="Write your message here..."></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Juan Dela Cruz</h4>
+      <p>Final-year Computer Engineering student building software and embedded
+         systems with care and curiosity.</p>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <p><a href="about.html">About Me</a><br />
+         <a href="projects.html">Projects</a><br />
+         <a href="cv.html">Curriculum Vitae</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:juan.delacruz.ce@example.com">juan.delacruz.ce@example.com</a><br />
+         Phone: +63 900 000 0000<br />
+         Location: Philippines</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 Juan Dela Cruz. All rights reserved.</span>
+    <span>Built with semantic HTML5 &amp; pure CSS3 — no JavaScript.</span>
+  </div>
+</footer>
+</body>
+</html>

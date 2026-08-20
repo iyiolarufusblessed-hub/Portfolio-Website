@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects | Juan Dela Cruz</title>
+<meta name="description" content="Selected projects by Juan Dela Cruz, including his Computer Engineering capstone." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Projects by Juan Dela Cruz",
+  "url": "https://example.com/projects.html",
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Multimodal Biometric Attendance System",
+      "datePublished": "2026-01-15",
+      "about": "Capstone Project",
+      "description": "A capstone project combining fingerprint and facial recognition to automate classroom attendance."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "IoT Environmental Monitoring Node",
+      "datePublished": "2025-06-10",
+      "about": "Embedded Systems",
+      "description": "A low-power LoRa sensor node logging temperature, humidity, and air quality."
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Digital Logic Simulator",
+      "datePublished": "2024-11-02",
+      "about": "Academic Project",
+      "description": "A desktop app for simulating combinational and sequential logic circuits."
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">JD</span> Juan Dela Cruz</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span><span></span><span></span></label>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Technical Skills</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="hobbies.html">Hobbies &amp; Interests</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact Me</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <section class="section" style="border-top:none;">
+      <span class="hero-eyebrow">Projects</span>
+      <h1>Selected work</h1>
+      <p class="section-intro">A mix of academic, capstone, and personal projects.
+        Click "View details" on any card for a quick CSS-only overlay — no
+        JavaScript involved. Full records live in <a href="data/data.json">data/data.json</a>
+        under the <code>projects</code> array.</p>
+    </section>
+
+    <section class="section">
+      <div class="grid cols-2">
+
+        <article class="card">
+          <p class="meta">Capstone Project · Jan 2026</p>
+          <h3>Multimodal Biometric Attendance System</h3>
+          <p>A final-year capstone combining fingerprint and facial recognition to
+             automate classroom attendance, backed by an embedded controller and a
+             local database.</p>
+          <ul class="tag-list">
+            <li class="tag">C++</li><li class="tag">Python</li><li class="tag">OpenCV</li>
+            <li class="tag">SQLite</li><li class="tag">STM32</li>
+          </ul>
+          <p style="margin-top:0.75rem;"><a class="modal-trigger" href="#project-1">View details &rarr;</a></p>
+        </article>
+
+        <article class="card">
+          <p class="meta">Embedded Systems · Jun 2025</p>
+          <h3>IoT Environmental Monitoring Node</h3>
+          <p>A low-power sensor node that logs temperature, humidity, and air
+             quality, transmitting readings over LoRa to a base station.</p>
+          <ul class="tag-list">
+            <li class="tag">Arduino</li><li class="tag">LoRa</li><li class="tag">C</li>
+          </ul>
+          <p style="margin-top:0.75rem;"><a class="modal-trigger" href="#project-2">View details &rarr;</a></p>
+        </article>
+
+        <article class="card">
+          <p class="meta">Academic Project · Nov 2024</p>
+          <h3>Digital Logic Simulator</h3>
+          <p>A desktop application for building and simulating combinational and
+             sequential logic circuits, built for coursework.</p>
+          <ul class="tag-list">
+            <li class="tag">Java</li><li class="tag">JavaFX</li>
+          </ul>
+          <p style="margin-top:0.75rem;"><a class="modal-trigger" href="#project-3">View details &rarr;</a></p>
+        </article>
+
+        <article class="card">
+          <p class="meta">Web Development · Aug 2026</p>
+          <h3>Static Portfolio Website</h3>
+          <p>This site: a no-JavaScript, standards-compliant personal portfolio
+             built with semantic HTML5, pure CSS3, and a JSON data schema.</p>
+          <ul class="tag-list">
+            <li class="tag">HTML5</li><li class="tag">CSS3</li><li class="tag">JSON</li>
+          </ul>
+          <p style="margin-top:0.75rem;"><a class="modal-trigger" href="#project-4">View details &rarr;</a></p>
+        </article>
+
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- CSS-only modals, triggered via :target -->
+<div class="modal-overlay" id="project-1">
+  <div class="modal-box">
+    <a class="modal-close" href="#" aria-label="Close">&times;</a>
+    <h3>Multimodal Biometric Attendance System</h3>
+    <p class="meta">Capstone Project · January 2026</p>
+    <p>Combines a fingerprint sensor and a facial-recognition camera module to
+       verify student identity before logging attendance to a local SQLite
+       database. An STM32 microcontroller handles sensor polling and a Python
+       service on a companion single-board computer performs face matching.
+       Designed to reduce proxy attendance and administrative overhead.</p>
+    <ul class="tag-list"><li class="tag">C++</li><li class="tag">Python</li><li class="tag">OpenCV</li><li class="tag">SQLite</li><li class="tag">STM32</li></ul>
+  </div>
+</div>
+<div class="modal-overlay" id="project-2">
+  <div class="modal-box">
+    <a class="modal-close" href="#" aria-label="Close">&times;</a>
+    <h3>IoT Environmental Monitoring Node</h3>
+    <p class="meta">Embedded Systems · June 2025</p>
+    <p>A battery-powered sensor node built around an Arduino-compatible MCU,
+       reporting temperature, humidity, and air-quality readings every five
+       minutes via a LoRa radio link to a base-station gateway for logging.</p>
+    <ul class="tag-list"><li class="tag">Arduino</li><li class="tag">LoRa</li><li class="tag">C</li></ul>
+  </div>
+</div>
+<div class="modal-overlay" id="project-3">
+  <div class="modal-box">
+    <a class="modal-close" href="#" aria-label="Close">&times;</a>
+    <h3>Digital Logic Simulator</h3>
+    <p class="meta">Academic Project · November 2024</p>
+    <p>A JavaFX desktop tool that lets users drag, wire, and simulate logic
+       gates, flip-flops, and small combinational/sequential circuits, built to
+       satisfy a Digital Design coursework requirement.</p>
+    <ul class="tag-list"><li class="tag">Java</li><li class="tag">JavaFX</li></ul>
+  </div>
+</div>
+<div class="modal-overlay" id="project-4">
+  <div class="modal-box">
+    <a class="modal-close" href="#" aria-label="Close">&times;</a>
+    <h3>Static Portfolio Website</h3>
+    <p class="meta">Web Development · August 2026</p>
+    <p>This very site — hand-coded semantic HTML5 and CSS3, with a JSON data
+       schema modelling the content, and zero JavaScript, per project
+       constraints.</p>
+    <ul class="tag-list"><li class="tag">HTML5</li><li class="tag">CSS3</li><li class="tag">JSON</li></ul>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Juan Dela Cruz</h4>
+      <p>Final-year Computer Engineering student building software and embedded
+         systems with care and curiosity.</p>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <p><a href="skills.html">Technical Skills</a><br />
+         <a href="hobbies.html">Hobbies &amp; Interests</a><br />
+         <a href="cv.html">Curriculum Vitae</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:juan.delacruz.ce@example.com">juan.delacruz.ce@example.com</a><br />
+         Phone: +63 900 000 0000<br />
+         <a href="contact.html">Contact form &rarr;</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 Juan Dela Cruz. All rights reserved.</span>
+    <span>Built with semantic HTML5 &amp; pure CSS3 — no JavaScript.</span>
+  </div>
+</footer>
+</body>
+</html>
