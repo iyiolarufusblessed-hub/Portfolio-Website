@@ -1,0 +1,102 @@
+{
+  "site": {
+    "owner": "Juan Dela Cruz",
+    "tagline": "Future Computer Engineer — Embedded Systems & Software",
+    "location": "Philippines",
+    "email": "juan.delacruz.ce@example.com",
+    "phone": "+63 900 000 0000",
+    "socials": [
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/example" },
+      { "platform": "GitHub", "url": "https://github.com/example" },
+      { "platform": "Facebook", "url": "https://facebook.com/example" }
+    ]
+  },
+  "education": [
+    {
+      "id": "edu-001",
+      "institution": "State University College of Engineering",
+      "credential": "B.Sc. in Computer Engineering",
+      "category": "Tertiary",
+      "date_start": "2022-08-01",
+      "date_end": "2026-06-30",
+      "description": "Final-year Computer Engineering student specializing in embedded systems, digital design, and software engineering. Current cumulative average: 1.75 (on a 1.0–5.0 scale).",
+      "image_url": "assets/images/education-university.svg"
+    },
+    {
+      "id": "edu-002",
+      "institution": "Senior High School – STEM Strand",
+      "credential": "Science, Technology, Engineering & Mathematics",
+      "category": "Secondary",
+      "date_start": "2020-06-01",
+      "date_end": "2022-05-31",
+      "description": "Completed the STEM strand with a focus on physics, calculus, and introductory programming.",
+      "image_url": "assets/images/education-shs.svg"
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      { "name": "C / C++", "proficiency": 90 },
+      { "name": "Python", "proficiency": 85 },
+      { "name": "Java", "proficiency": 70 },
+      { "name": "Assembly (ARM/AVR)", "proficiency": 65 }
+    ],
+    "web_and_markup": [
+      { "name": "HTML5 / CSS3", "proficiency": 88 },
+      { "name": "JSON / Data Modelling", "proficiency": 80 }
+    ],
+    "tools_and_platforms": [
+      { "name": "Git / GitHub", "proficiency": 85 },
+      { "name": "Linux / Bash", "proficiency": 78 },
+      { "name": "MATLAB / Simulink", "proficiency": 70 }
+    ],
+    "hardware": [
+      { "name": "Microcontrollers (STM32, Arduino)", "proficiency": 82 },
+      { "name": "PCB Design (KiCad)", "proficiency": 68 },
+      { "name": "Digital Logic Design (FPGA/VHDL)", "proficiency": 60 }
+    ]
+  },
+  "projects": [
+    {
+      "id": "prj-001",
+      "title": "Multimodal Biometric Attendance System",
+      "date": "2026-01-15",
+      "category": "Capstone Project",
+      "description": "A final-year capstone project combining fingerprint and facial recognition to automate classroom attendance, backed by an embedded controller and a local database.",
+      "image_url": "assets/images/project-biometric.svg",
+      "tech": ["C++", "Python", "OpenCV", "SQLite", "STM32"]
+    },
+    {
+      "id": "prj-002",
+      "title": "IoT Environmental Monitoring Node",
+      "date": "2025-06-10",
+      "category": "Embedded Systems",
+      "description": "A low-power sensor node that logs temperature, humidity, and air quality, transmitting readings over LoRa to a base station.",
+      "image_url": "assets/images/project-iot.svg",
+      "tech": ["Arduino", "LoRa", "C"]
+    },
+    {
+      "id": "prj-003",
+      "title": "Digital Logic Simulator",
+      "date": "2024-11-02",
+      "category": "Academic Project",
+      "description": "A desktop application for building and simulating combinational and sequential logic circuits, built for a Digital Design coursework requirement.",
+      "image_url": "assets/images/project-logic-sim.svg",
+      "tech": ["Java", "JavaFX"]
+    },
+    {
+      "id": "prj-004",
+      "title": "Static Portfolio Website (this site)",
+      "date": "2026-08-20",
+      "category": "Web Development",
+      "description": "A no-JavaScript, standards-compliant personal portfolio built with semantic HTML5, pure CSS3, and a JSON data schema.",
+      "image_url": "assets/images/project-portfolio.svg",
+      "tech": ["HTML5", "CSS3", "JSON"]
+    }
+  ],
+  "hobbies": [
+    { "id": "hob-001", "title": "Amateur Robotics", "description": "Building small robots and automation demos with off-the-shelf microcontrollers." },
+    { "id": "hob-002", "title": "Chess", "description": "Casual tournament play; enjoys studying endgame theory." },
+    { "id": "hob-003", "title": "Photography", "description": "Street and landscape photography using a mirrorless camera." },
+    { "id": "hob-004", "title": "Open-Source Contribution", "description": "Occasional contributor to small embedded-systems libraries on GitHub." }
+  ]
+}
