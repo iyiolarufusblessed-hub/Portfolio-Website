@@ -368,10 +368,11 @@ input:focus, textarea:focus {
   font-size: 0.85rem;
   color: var(--color-text-dim);
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 
 /* ---------- CV page ---------- */
 .cv-download { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; margin-bottom: var(--space-4); }
