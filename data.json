@@ -1,0 +1,81 @@
+{
+  "site": {
+    "owner": "Iyiola Rufus",
+    "tagline": "Future Engineer — Web Development & Graphic Design",
+    "location": "Zaria, Kaduna, Nigeria",
+    "email": "iyiolarufusblessed@gmail.com",
+    "phone": "+247060790113",
+    "socials": [
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/rufusiyiola" },
+      { "platform": "GitHub", "url": "https://github.com/rufusiyiola" },
+      { "platform": "Facebook", "url": "https://facebook.com/rufusiyiola" }
+    ]
+  },
+  "education": [
+    {
+      "id": "edu-001",
+      "institution": "Ahmadu Bello University, Zaria, Kaduna State, Nigeria",
+      "credential": "Bachelor of Engineering",
+      "category": "Tertiary",
+      "date_start": "2022-08-01",
+      "date_end": "2026-06-30",
+      "description": "Final-year Engineering student specializing in embedded systems, digital design, and software engineering.",
+      "image_url": "assets/images/education-university.svg"
+    },
+    {
+      "id": "edu-002",
+      "institution": "Topmost Intercontinental Academy, Sabon Wuse, Niger State",
+      "credential": "Senior Secondary School",
+      "category": "Secondary",
+      "date_start": "",
+      "date_end": "",
+      "description": "Completed senior secondary education, building a foundation in mathematics and the sciences.",
+      "image_url": "assets/images/education-shs.svg"
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      { "name": "C / C++", "proficiency": 85 },
+      { "name": "Python", "proficiency": 85 }
+    ],
+    "web_development": [
+      { "name": "HTML5 / CSS3", "proficiency": 90 },
+      { "name": "JSON / Data Modelling", "proficiency": 80 }
+    ],
+    "graphic_design": [
+      { "name": "Visual Design & Layout", "proficiency": 85 },
+      { "name": "Branding & UI Design", "proficiency": 80 }
+    ],
+    "tools_and_platforms": [
+      { "name": "Git / GitHub", "proficiency": 80 }
+    ]
+  },
+  "projects": [
+    {
+      "id": "prj-001",
+      "title": "Multimodal Biometric Attendance System",
+      "date": "2026-01-15",
+      "category": "Capstone Project",
+      "description": "A final-year capstone project combining fingerprint and facial recognition to automate classroom attendance, backed by an embedded controller and a local database.",
+      "image_url": "assets/images/project-biometric.svg",
+      "tech": ["C++", "Python", "OpenCV", "SQLite"]
+    },
+    {
+      "id": "prj-004",
+      "title": "Static Portfolio Website (this site)",
+      "date": "2026-08-20",
+      "category": "Web Development",
+      "description": "A no-JavaScript, standards-compliant personal portfolio built with semantic HTML5, pure CSS3, and a JSON data schema.",
+      "image_url": "assets/images/project-portfolio.svg",
+      "tech": ["HTML5", "CSS3", "JSON"]
+    }
+  ],
+  "hobbies": [
+    { "id": "hob-001", "title": "Robotics", "description": "Building small robots and automation demos with off-the-shelf microcontrollers." },
+    { "id": "hob-002", "title": "Designing", "description": "Creating visual designs and graphics, from branding concepts to web interfaces." },
+    { "id": "hob-003", "title": "Photography", "description": "Capturing everyday moments and scenes." },
+    { "id": "hob-004", "title": "Research", "description": "Reading into new technologies and topics that intersect with engineering and design." },
+    { "id": "hob-005", "title": "Meditating", "description": "Taking time to reflect and reset." },
+    { "id": "hob-006", "title": "Traveling", "description": "Exploring new places, cultures, and perspectives." }
+  ]
+}
