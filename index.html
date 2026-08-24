@@ -3,23 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Iyiola Rufus | Future Computer Engineer</title>
-<meta name="description" content="Portfolio of Iyiola Rufus, a final-year Computer Engineering student specializing in embedded systems and software." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<title>Iyiola Rufus - Portfolio</title>
+<meta name="description" content="Personal portfolio website of Iyiola Rufus, a final-year Engineering student." />
 <link rel="stylesheet" href="assets/css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Iyiola Rufus",
-  "jobTitle": "Computer Engineering Student",
-  "description": "Final-year Computer Engineering student specializing in embedded systems and software engineering.",
-  "url": "https://github.com/iyiolarufusblessed-hub/Portfolio-Website/index.html",
+  "jobTitle": "Engineering Student",
+  "description": "Final-year Engineering student who works as a web developer and graphic designer.",
+  "url": "https://github.com/iyiolarufusblessed-hub/portfolio-website/index.html",
   "email": "mailto:iyiolarufusblessed@gmail.com",
   "sameAs": [
-    "https://linkedin.com/in/rufusiyiola",
-    "https://github.com/rufusiyiola"
+    "https://linkedin.com/in/iyiolarufusblessed",
+    "https://github.com/iyiolarufusblessed"
   ],
   "alumniOf": {
     "@type": "CollegeOrUniversity",
@@ -29,109 +27,64 @@
 </script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-
-<header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html"><span class="brand-mark">IR</span> Iyiola Rufus</a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
-      <span></span><span></span><span></span>
-    </label>
-    <nav class="main-nav" aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="education.html">Education</a>
-      <a href="skills.html">Technical Skills</a>
-      <a href="projects.html">Projects</a>
-      <a href="hobbies.html">Hobbies &amp; Interests</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact Me</a>
-    </nav>
-  </div>
+<header>
+  <h1>Iyiola Rufus</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skills.html">Technical Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="hobbies.html">Hobbies & Interests</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
 </header>
+<main class="container">
+<section class="hero">
+  <img src="assets/images/profile.jpg" alt="Photo of Iyiola Rufus" class="profile-pic" />
+  <h2>Hi, I'm Iyiola Rufus</h2>
+  <p>I am a final-year Engineering student who also works as a web developer and graphic designer. Welcome to my personal portfolio website.</p>
+  <a href="projects.html" class="btn">View My Projects</a>
+  <a href="cv.html" class="btn">See My CV</a>
+</section>
 
-<main id="main">
-  <div class="container">
-    <section class="hero">
-      <div>
-        <span class="hero-eyebrow">Welcome to my portfolio</span>
-        <h1>Hi, I'm Rufus a soon to be certified Computer&nbsp;Engineer.</h1>
-        <p>I'm a final-year Computer Engineering student who enjoys building things at the
-           intersection of hardware and software: embedded systems, low-level programming,
-           and clean, purposeful interfaces. This site is a hand-built, no-JavaScript
-           showcase of my academic journey, skills, and projects.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="projects.html">View My Projects</a>
-          <a class="btn btn-outline" href="cv.html">See My CV</a>
-        </div>
-      </div>
-      <div class="avatar-frame">
-  <img src="assets/images/profile.jpg" alt="Portrait of Iyiola Rufus" class="avatar-img" />
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>What I Do</h2>
-      <div class="grid cols-3">
-        <article class="card">
-          <h3>Embedded Systems</h3>
-          <p>Designing and programming microcontroller-based systems, from sensor
-             integration to real-time control.</p>
-        </article>
-        <article class="card">
-          <h3>Software Development</h3>
-          <p>Writing clean, well-structured code in C/C++, Python, and Java for
-             both academic and personal projects.</p>
-        </article>
-        <article class="card">
-          <h3>Problem Solving</h3>
-          <p>Applying engineering fundamentals — circuits, logic design, and
-             algorithms — to build practical solutions.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>A Quick Tour</h2>
-      <p class="section-intro">Use the navigation above (or the links below) to explore
-        my background, skills, and work in more depth.</p>
-      <div class="grid cols-3">
-        <article class="card"><h3><a href="about.html">About Me</a></h3><p>Who I am, beyond the transcript.</p></article>
-        <article class="card"><h3><a href="education.html">Education</a></h3><p>My academic timeline so far.</p></article>
-        <article class="card"><h3><a href="skills.html">Technical Skills</a></h3><p>Languages, tools, and hardware I work with.</p></article>
-        <article class="card"><h3><a href="projects.html">Projects</a></h3><p>Capstone and personal builds.</p></article>
-        <article class="card"><h3><a href="hobbies.html">Hobbies</a></h3><p>What I do away from the breadboard.</p></article>
-        <article class="card"><h3><a href="contact.html">Contact</a></h3><p>Let's get in touch.</p></article>
-      </div>
-    </section>
+<section>
+  <h2>What I Do</h2>
+  <div class="columns">
+    <div class="box">
+      <h3>Web Development</h3>
+      <p>I build simple, clean websites using HTML and CSS.</p>
+    </div>
+    <div class="box">
+      <h3>Graphic Design</h3>
+      <p>I create visual designs, layouts, and branding graphics.</p>
+    </div>
+    <div class="box">
+      <h3>Programming</h3>
+      <p>I write programs in C, C++, and Python for coursework and personal projects.</p>
+    </div>
   </div>
+</section>
+
+<section>
+  <h2>Quick Links</h2>
+  <ul>
+    <li><a href="about.html">About Me</a> - who I am</li>
+    <li><a href="education.html">Education</a> - my school background</li>
+    <li><a href="skills.html">Technical Skills</a> - what I can do</li>
+    <li><a href="projects.html">Projects</a> - things I have built</li>
+    <li><a href="hobbies.html">Hobbies and Interests</a> - what I do for fun</li>
+    <li><a href="contact.html">Contact Me</a> - get in touch</li>
+  </ul>
+</section>
+
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <h4>Iyiola Rufus</h4>
-      <p>Final-year Computer Engineering student building software and embedded
-         systems with care and curiosity.</p>
-    </div>
-    <div>
-      <h4>Navigate</h4>
-      <p><a href="about.html">About Me</a><br />
-         <a href="projects.html">Projects</a><br />
-         <a href="cv.html">Curriculum Vitae</a></p>
-    </div>
-    <div>
-      <h4>Contact</h4>
-      <p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a><br />
-         Phone: +247060790113<br />
-         <a href="contact.html">Contact form &rarr;</a></p>
-    </div>
-  </div>
-  <div class="container footer-bottom">
-    <span>&copy; 2026 Iyiola Rufus. All rights reserved.</span>
-    <span>Built with semantic HTML5 &amp; pure CSS3 — no JavaScript.</span>
-  </div>
+<footer>
+  <p>&copy; 2026 Iyiola Rufus. All rights reserved.</p>
+  <p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a> | Phone: +247060790113</p>
 </footer>
 </body>
 </html>
