@@ -3,10 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Educational Background | Iyiola Rufus</title>
-<meta name="description" content="Academic timeline of Iyiola Rufus, Computer Engineering student." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<title>Educational Background - Iyiola Rufus</title>
+<meta name="description" content="Educational background of Iyiola Rufus." />
 <link rel="stylesheet" href="assets/css/style.css" />
 <script type="application/ld+json">
 {
@@ -18,124 +16,64 @@
     "@type": "Person",
     "name": "Iyiola Rufus",
     "alumniOf": [
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "Ahmadu Bello University",
-        "sameAs": "https://github.com/iyiolarufusblessed-hub/Portfolio-Website/education.html"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "Topmost Intercontinental Academy"
-      }
+      { "@type": "CollegeOrUniversity", "name": "Ahmadu Bello University" },
+      { "@type": "EducationalOrganization", "name": "Topmost Intercontinental Academy" }
     ]
   }
 }
 </script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html"><span class="brand-mark">IR</span> Iyiola Rufus</a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span><span></span><span></span></label>
-    <nav class="main-nav" aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="education.html" aria-current="page">Education</a>
-      <a href="skills.html">Technical Skills</a>
-      <a href="projects.html">Projects</a>
-      <a href="hobbies.html">Hobbies &amp; Interests</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact Me</a>
-    </nav>
-  </div>
+<header>
+  <h1>Iyiola Rufus</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="education.html" class="active">Education</a></li>
+      <li><a href="skills.html">Technical Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="hobbies.html">Hobbies & Interests</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
 </header>
+<main class="container">
+<h2>Educational Background</h2>
 
-<main id="main">
-  <div class="container">
-    <section class="section" style="border-top:none;">
-      <span class="hero-eyebrow">Educational Background</span>
-      <h1>My academic journey</h1>
-      <p class="section-intro">From STEM senior high school to a Computer Engineering
-        degree — the milestones that shaped my technical foundation. This content
-        mirrors the <code>education</code> array in <a href="data/data.json">data/data.json</a>.</p>
-    </section>
+<table>
+  <tr>
+    <th>School</th>
+    <th>Qualification</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>Ahmadu Bello University, Zaria, Kaduna State, Nigeria</td>
+    <td>Bachelor of Engineering</td>
+    <td>Expected 2026</td>
+  </tr>
+  <tr>
+    <td>Topmost Intercontinental Academy, Sabon Wuse, Niger State</td>
+    <td>Senior Secondary School</td>
+    <td>Completed</td>
+  </tr>
+</table>
 
-    <section class="section">
-      <ol class="timeline">
-        <li>
-          <div class="meta">Expected 2026</div>
-          <h3>Bachelor of Engineering</h3>
-          <p><strong>Ahmadu Bello University, Zaria, Kaduna State, Nigeria</strong></p>
-          <p>Final-year Engineering student specializing in embedded systems,
-             digital logic design, and software engineering. Currently completing
-             a capstone project on a multimodal biometric attendance system.
-             Relevant coursework includes Microprocessor Systems, Data Structures
-             &amp; Algorithms, Computer Architecture, Digital Signal Processing,
-             and Software Engineering.</p>
-          <ul class="tag-list">
-            <li class="tag">Embedded Systems Focus</li>
-            <li class="tag">Capstone: In Progress</li>
-          </ul>
-        </li>
-        <li>
-          <div class="meta">Senior Secondary</div>
-          <h3>Senior Secondary School</h3>
-          <p><strong>Topmost Intercontinental Academy, Sabon Wuse, Niger State</strong></p>
-          <p>Completed senior secondary education, building a foundation in
-             mathematics and the sciences that led directly into my choice of
-             Engineering.</p>
-        </li>
-      </ol>
-    </section>
+<div class="box">
+  <h3>Ahmadu Bello University</h3>
+  <p>I am currently in my final year of a Bachelor of Engineering degree. My coursework has covered subjects such as computer programming, digital design, and software engineering. I am currently working on my final year project.</p>
+</div>
 
-    <section class="section">
-      <h2>Certifications &amp; Short Courses</h2>
-      <div class="grid cols-3">
-        <article class="card">
-          <h3>Embedded C Programming</h3>
-          <p class="meta">Online Certificate, 2025</p>
-          <p>Fundamentals of writing efficient, portable C for microcontrollers.</p>
-        </article>
-        <article class="card">
-          <h3>Introduction to FPGA Design</h3>
-          <p class="meta">Workshop, 2024</p>
-          <p>Hands-on VHDL exercises covering combinational and sequential logic.</p>
-        </article>
-        <article class="card">
-          <h3>Git &amp; Version Control</h3>
-          <p class="meta">Self-paced course, 2023</p>
-          <p>Branching strategies, pull requests, and collaborative workflows.</p>
-        </article>
-      </div>
-    </section>
-  </div>
+<div class="box">
+  <h3>Topmost Intercontinental Academy</h3>
+  <p>I completed my senior secondary education here, where I built a strong foundation in mathematics and science subjects.</p>
+</div>
+
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <h4>Iyiola Rufus</h4>
-      <p>Final-year Computer Engineering student building software and embedded
-         systems with care and curiosity.</p>
-    </div>
-    <div>
-      <h4>Navigate</h4>
-      <p><a href="skills.html">Technical Skills</a><br />
-         <a href="projects.html">Projects</a><br />
-         <a href="cv.html">Curriculum Vitae</a></p>
-    </div>
-    <div>
-      <h4>Contact</h4>
-      <p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a><br />
-         Phone: +247060790113<br />
-         <a href="contact.html">Contact form &rarr;</a></p>
-    </div>
-  </div>
-  <div class="container footer-bottom">
-    <span>&copy; 2026 Iyiola Rufus. All rights reserved.</span>
-  </div>
+<footer>
+  <p>&copy; 2026 Iyiola Rufus. All rights reserved.</p>
+  <p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a> | Phone: +247060790113</p>
 </footer>
 </body>
 </html>
