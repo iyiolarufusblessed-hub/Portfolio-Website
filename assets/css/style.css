@@ -24,14 +24,42 @@ header {
   border-bottom: 4px solid #f39c12;
 }
 
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 header h1 {
-  margin: 0 0 12px 0;
+  margin: 0;
   font-size: 26px;
+}
+
+/* Hamburger menu toggle (shows on small screens only) */
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.nav-toggle-label span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 2px;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
+  margin: 15px 0 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -234,9 +262,27 @@ footer a {
 }
 
 /* Basic responsiveness for small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  .nav-toggle-label {
+    display: flex;
+  }
+
   nav ul {
+    display: none;
     flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .nav-toggle:checked ~ nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0 0 8px 0;
+  }
+
+  nav ul li a {
+    display: block;
   }
 
   .columns {
@@ -246,4 +292,4 @@ footer a {
   header h1 {
     font-size: 22px;
   }
-   }
+}
