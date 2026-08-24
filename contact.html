@@ -3,119 +3,69 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contact Me | Iyiola Rufus</title>
-<meta name="description" content="Get in touch with Iyiola Rufus." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<title>Contact Me - Iyiola Rufus</title>
+<meta name="description" content="Contact page for Iyiola Rufus." />
 <link rel="stylesheet" href="assets/css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "name": "Contact Iyiola Rufus",
-  "url": "https://rufusiyiola.github.io/portfolio-website/contact.html",
+  "url": "https://github.com/iyiolarufusblessed-hub/portfolio-website/contact.html",
   "mainEntity": {
     "@type": "Person",
     "name": "Iyiola Rufus",
     "email": "mailto:iyiolarufusblessed@gmail.com",
-    "telephone": "+63-900-000-0000"
+    "telephone": "+247060790113"
   }
 }
 </script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="index.html"><span class="brand-mark">IR</span> Iyiola Rufus</a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu"><span></span><span></span><span></span></label>
-    <nav class="main-nav" aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="education.html">Education</a>
-      <a href="skills.html">Technical Skills</a>
-      <a href="projects.html">Projects</a>
-      <a href="hobbies.html">Hobbies &amp; Interests</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html" aria-current="page">Contact Me</a>
-    </nav>
-  </div>
+<header>
+  <h1>Iyiola Rufus</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skills.html">Technical Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="hobbies.html">Hobbies & Interests</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html" class="active">Contact Me</a></li>
+    </ul>
+  </nav>
 </header>
+<main class="container">
+<h2>Contact Me</h2>
 
-<main id="main">
-  <div class="container">
-    <section class="section" style="border-top:none;">
-      <span class="hero-eyebrow">Contact Me</span>
-      <h1>Let's get in touch</h1>
-      <p class="section-intro">Whether it's about an opportunity, a collaboration, or
-        just a question about one of my projects, I'd love to hear from you.</p>
-    </section>
+<p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a></p>
+<p>Phone: +247060790113</p>
+<p>Location: Zaria, Kaduna, Nigeria</p>
+<p>
+  <a href="https://linkedin.com/in/rufusiyiola">LinkedIn</a> |
+  <a href="https://github.com/iyiolarufusblessed-hub">GitHub</a>
+</p>
 
-    <section class="section">
-      <div class="grid cols-2">
-        <article>
-          <h2>Contact Details</h2>
-          <p><strong>Email:</strong> <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a></p>
-          <p><strong>Phone:</strong> +247060790113</p>
-          <p><strong>Location:</strong> Zaria, Kaduna, Nigeria</p>
-          <p><strong>Social Media:</strong><br />
-             <a href="https://linkedin.com/in/iyiolarufusblessed">LinkedIn</a> ·
-             <a href="https://github.com/iyiolarufusblessed-hub">GitHub</a> ·
-             <a href="https://facebook.com/iyiolarufusblessed">Facebook</a></p>
-        </article>
+<h3>Send Me a Message</h3>
+<form action="mailto:iyiolarufusblessed@gmail.com" method="post" enctype="text/plain">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" required="required" />
 
-        <article>
-          <h2>Send a Message</h2>
-          
-          <form class="form-grid" action="mailto:iyiolarufusblessed@gmail.com" method="post" enctype="text/plain">
-            <div>
-              <label for="name">Full Name</label>
-              <input type="text" id="name" name="name" required="required" placeholder="Iyiola Rufus" />
-            </div>
-            <div>
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" required="required" placeholder="you@example.com" />
-            </div>
-            <div>
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="Let's connect" />
-            </div>
-            <div>
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required="required" placeholder="Write your message here..."></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit">Send Message</button>
-          </form>
-        </article>
-      </div>
-    </section>
-  </div>
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" required="required" />
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" required="required"></textarea>
+
+  <p><button type="submit" class="btn">Send Message</button></p>
+</form>
+
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <h4>Iyiola Rufus</h4>
-      <p>Final-year Computer Engineering student building software and embedded
-         systems with care and curiosity.</p>
-    </div>
-    <div>
-      <h4>Navigate</h4>
-      <p><a href="about.html">About Me</a><br />
-         <a href="projects.html">Projects</a><br />
-         <a href="cv.html">Curriculum Vitae</a></p>
-    </div>
-    <div>
-      <h4>Contact</h4>
-      <p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a><br />
-         Phone: +247060790113<br />
-         Location: Zaria, Kaduna, Nigeria</p>
-    </div>
-  </div>
-  <div class="container footer-bottom">
-    <span>&copy; 2026 Iyiola Rufus. All rights reserved.</span>
-  </div>
+<footer>
+  <p>&copy; 2026 Iyiola Rufus. All rights reserved.</p>
+  <p>Email: <a href="mailto:iyiolarufusblessed@gmail.com">iyiolarufusblessed@gmail.com</a> | Phone: +247060790113</p>
 </footer>
 </body>
 </html>
